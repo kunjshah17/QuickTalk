@@ -1,0 +1,31 @@
+.home-page {
+  height: 100vh;
+  background-color: #f5f5f5; /* light elegant background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.home-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 96rem; /* same as max-w-6xl */
+  height: calc(100vh - 8rem);
+  overflow: hidden;
+}
+
+.chat-section {
+  display: flex;
+  height: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+}

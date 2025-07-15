@@ -1,0 +1,109 @@
+.message-input-wrapper {
+  padding: 16px;
+  width: 95%;
+  background-color: #ffffff;
+  border-top: 1px solid #e0e0e0;
+}
+
+.image-preview {
+  margin-bottom: 12px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.remove-btn {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 50%;
+  padding: 2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 48px;
+}
+
+.message-fields {
+  flex: 1;
+  display: flex;
+  gap: 8px;
+
+}
+
+.message-text {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.image-btn {
+  background: none;
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+  transition: color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-btn.active {
+  color: #28a745;
+}
+
+.image-btn:hover {
+  color: #555;
+}
+
+.send-btn {
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 50%;
+  width: 40px;        
+  height: 40px;       
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  flex-shrink: 0;
+  padding: 0;
+  transition: background 0.3s;
+}
+
+.send-btn svg {
+  width: 18px;
+  height: 18px;
+}
+
+.send-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+input[type="file"] {
+  display: none;
+}
